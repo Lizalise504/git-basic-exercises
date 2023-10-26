@@ -15,3 +15,6 @@ git status
 git add README.md
 git commit -m "initial commit"
 nano README.md
+After typing press Ctrl x to exit
+press y to save
+then enter to exit

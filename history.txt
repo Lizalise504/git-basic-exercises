@@ -1,0 +1,500 @@
+   74  git
+   75  cd "OneDrive Capitec Bank Ltd"/
+   76  ls
+   77  cd 'OneDrive - Capitec Bank Ltd'/
+   78  cd Desktop
+   79  mkdir Coding Dojo
+   80  cd Coding Dojo
+   81  cd Coding Dojo/
+   82  rm Coding Dojo
+   83  rmdir Coding
+   84  rmdir Dojo
+   85  mkdir Coding-Dojo
+   86  cd Coding-Dojo
+   87  mkdir Projects
+   88  cd Projects
+   89  mkdir Test
+   90  cd Test
+   91  touch index.html
+   92  touch styles.css
+   93  ls
+   94  git init
+   95  git commit -m "my first commit"
+   96  git add index.html
+   97  git add styles.css
+   98  git status
+   99  git commit -m "update html"
+  100  git status
+  101  git add.
+  102  git add .
+  103  git status
+  104  git commit -m "update css"
+  105  git log
+  106  git revert -n b488812
+  107  git add index.html
+  108  git commit -m "updating html"
+  109  git add styles.css
+  110  git commit -m "fixing stylesheet"
+  111  git push
+  112  git status
+  113  ls
+  114  git log
+  115  cd 'OneDrive - Capitec Bank Ltd'
+  116  cd Desktop
+  117  cd Coding-Dojo
+  118  cd Projects
+  119  ls
+  120  mkdir basic_repo
+  121  cd basic_repo
+  122  touch index.html
+  123  touch style.css
+  124  touch commands.txt
+  125  touch "# Basic_repo" >> README.md
+  126  ls
+  127  git init
+  128  git add .
+  129  git status
+  130  rm "# Basic_repo"
+  131  ls
+  132  git commit -m "first commit"
+  133  git remote add origin https://github.com/Lizalise504/basic_repo.git
+  134  git push -u origin main
+  135  git config --global http.sslbackend schannel
+  136  git push -u origin main
+  137  git commit -m "deleting #Basic_repo text"
+  138  git add .
+  139  git status
+  140  git commit -m "removing #Basic_repo"
+  141  ls
+  142  git status
+  143  git add .
+  144  git status
+  145  git commit -m "updating html css commands and readme files"
+  146  git push
+  147  git add style.css
+  148  git commit -m "changed the display to flex"
+  149  git add commands.txt
+  150  git commit -m "writing down all the commands I used"
+  151  git push
+  152  git log
+  153  cd 'OneDrive - Capitec Bank Ltd'
+  154  cd Desktop
+  155  cd Projects
+  156  cd project
+  157  cd Coding-dojo
+  158  cd projects
+  159  ls
+  160  cd test
+  161  ls
+  162  git status
+  163  git log
+  164  git remote add origin https://github.com/Lizalise504/Test_Gitignore.git
+  165  git push -u origin main
+  166  ls
+  167  git add commits.md
+  168  git status
+  169  git commit
+  170  git status
+  171  git push
+  172  ls
+  173  touch .gitignore
+  174  ls
+  175  ls
+  176  git status
+  177  touch secret.js
+  178  git add .
+  179  ls
+  180  git status
+  181  git add .
+  182  git commit -m "adding .gitignore"
+  183  git push
+  184  git status
+  185  git add .gitignore
+  186  git commit -m "updating .gitignore"
+  187  git push
+  188  ls
+  189  ls -a
+  190  cd .gitignore
+  191  cd '.gitignore'
+  192  git add .gitignore
+  193  git commit -m "updating gitignore"
+  194  ls
+  195  git status
+  196  git push
+  197  git status
+  198  cd 'OneDrive - Capitec Bank Ltd'
+  199  cd desktop
+  200  cd coding-dojo
+  201  ls
+  202  cd Projects
+  203  ls
+  204  mkdir git_demo_fork
+  205  cd git_demo_fork
+  206  git clone https://Lizalise504/git_demo_fork.git
+  207  git clone https://github.com/Lizalise504/git_demo_fork.git
+  208  ls
+  209  cd git_demo_fork
+  210  ls
+  211  git add demo_index.html
+  212  git commit -m "updating my details on git demo_index.html"
+  213  git status
+  214  git pull origin master -m "uploading an edited demo_index.html file"
+  215  git push
+  216  git status
+  217  git pull origin master -m "uploading my demo_index.html file"
+  218  cd ..
+  219  touch commands.txt
+  220  ls
+  221  cd ..
+  222  pwd
+  223  ls
+  224  git clone https://github.com/Lizalise504/portfolio_templates.git
+  225  ls
+  226  cd portfolio_templates
+  227  git branch -M main
+  228  ls
+  229  cd 'OneDrive - Capitec Bank Ltd'
+  230  cd Desktop
+  231  cd Projects
+  232  cd Coding-dojo
+  233  cd Projects
+  234  ls
+  235  mkdir Porfolio
+  236  mv Porfolio Portfolio
+  237  ls
+  238  cd Portfolio
+  239  touch index.html
+  240  touch style.css
+  241  touch README.md
+  242  ls
+  243  git init
+  244  git status
+  245  git add .
+  246  git commit -m "first commit adding files"
+  247  git add .
+  248  git status
+  249  git commit -m "adding img and resume to the directory"
+  250  git status
+  251  git add .
+  252  git commit -m "updating all the files"
+  253  git remote add origin https://github.com/Lizalise504/Personal_Portfolio.git
+  254  git push -u origin main
+  255  git status
+  256  git add style.css
+  257  git commit -m "updating css"
+  258  git push
+  259  cd 'OneDrive - Capitec Bank Ltd'
+  260  cd Desktop
+  261  cd Coding-dojo
+  262  cd Projects
+  263  ls
+  264  mkdir Branching
+  265  mv wolf1.png Branching/
+  266  ls
+  267  cd Branching
+  268  ls
+  269  cd ..
+  270  mv wolf2.jpg Branching/
+  271  mv wolf3.jpg Branching/
+  272  mv wolf4.jpg Branching/
+  273  cd Branching
+  274  ls
+  275  touch index.html
+  276  touch style.css
+  277  git init
+  278  git status
+  279  git add .
+  280  git commit -m "initial commit"
+  281  git remote add origin https;//github.com/Lizalise504/Branching_and_Merging.git
+  282  git remote add origin https://github.com/Lizalise504/Branching_and_Merging.git
+  283  git status
+  284  git remote add branching https://github.com/Lizalise504/Branching_and_Merging.git
+  285  git push -u branching main
+  286  git add index.html
+  287  git commit -m "updating html"
+  288  git add style.css
+  289  git commit -m "updating css"
+  290  git push
+  291  git checkout -b add-css
+  292  git add index.html
+  293  git commit -m "adding div for images"
+  294  git add background.jfif
+  295  git commit -m "adding background image"
+  296  git add style.css
+  297  git commit -m "adding style to the page"
+  298  git checkout main
+  299  git merge add-css
+  300  git push
+  301  git status
+  302  git checkout add-css
+  303  git status
+  304  git push
+  305  git checkout main
+  306  git checkout add-css
+  307  git branch
+  308  git pull branching main
+  309  ls
+  310  git checkout main
+  311  git push branching main
+  312  git add .
+  313  git commit -m "adding steps text file"
+  314  git push
+  315  touch Name.java
+  316  ls
+  317  git init
+  318  git add .
+  319  git commit -m "initial commit"
+  320  git add .
+  321  git status
+  322  git commit -m "update java file"
+  323  git remote add origin https://github.com/Lizalise504/First_Java_Program.git
+  324  git push -u origin main
+  325  ls
+  326  git init
+  327  git status
+  328  git add .
+  329  git commit -m "initial commit"
+  330  git remote add origin https://github.com/Lizalise504/CafeJava.git
+  331  git push -u origin main
+  332  git status
+  333  git add .
+  334  git comment -m "compiling again"
+  335  git commit -m "compiling java again"
+  336  git push
+  337  git commit -m "updating java file"
+  338  git push
+  339  ls
+  340  cd 'Alfred Bot'
+  341  ls
+  342  git init
+  343  git add .
+  344  git commit -m "initial commit"
+  345  git status
+  346  git remote add origin https://github.com/Lizalise504/AlfredBot.git
+  347  git push -u origin main
+  348  cd 'OneDrive - Capitec Bank Ltd'
+  349  cd Desktop
+  350  cd Coding-Dojo
+  351  cd Projects
+  352  cd JAVA
+  353  ls
+  354  cd 'Cafe Business Logic'
+  355  ls
+  356  git init
+  357  git add .
+  358  git commit -m "initial commit"
+  359  git add .
+  360  git commit -m "compiling the java files"
+  361  git remote add origin https://github.com/Lizalise504/Cafe_Business_Logic.git
+  362  git push -u origin main
+  363  git add .
+  364  git commit -m "updating java file"
+  365  git push
+  366  ls
+  367  git init
+  368  git add .
+  369  git commit -m "initial commit"
+  370  git remote add origin https://github.com/Lizalise504/PuzzlingJava.git
+  371  git push -u origin main
+  372  ls
+  373  git init
+  374  git add .
+  375  git commit -m "initial commit"
+  376  git remote add origin https://github.com/Lizalise504/NumbersGameJava.git
+  377  git push -u origin main
+  378  git add .
+  379  git commit -m "updating NumbersGame"
+  380  git push
+  381  ls
+  382  git init
+  383  git add .
+  384  git commit -m "initial commit"
+  385  git remote add origin https://github.com/Lizalise504/Orders_And_ItemsJava.git
+  386  git push -u origin main
+  387  ls
+  388  git init
+  389  git add .
+  390  git commit -m "initial commit"
+  391  git remote add https://github.com/Lizalise504/Barista_ChallengeJava.git
+  392  git remote add origin https://github.com/Lizalise504/Barista_ChallengeJava.git
+  393  git status
+  394  git push -u origin main
+  395  ls
+  396  git init
+  397  git add .
+  398  git commit -m "initial commit"
+  399  git remote add origin https://github.com/Lizalise504/Coffeedore64.git
+  400  git push -u origin main
+  401  ls
+  402  git init
+  403  git add .
+  404  git commit -m "initial commit"
+  405  git remote add origin https://github.com/Lizalise504/DeviceJava.git
+  406  git push -u origin main
+  407  cd ..
+  408  ls
+  409  cd Zookeeper
+  410  ls
+  411  git init
+  412  git add .
+  413  git status
+  414  git commit -m "initial commit"
+  415  git remote add origin https://github.com/Lizalise504/ZookeeperJava.git
+  416  git push -u origin main
+  417  cd..
+  418  cd ..
+  419  ls
+  420  cd CareSoft
+  421  ls
+  422  git init
+  423  git add .
+  424  git commit -m "initial commit"
+  425  git remote add origin https://github.com/Lizalise504/CareSoftJava.git
+  426  git push -u origin main
+  427  git status
+  428  git add .
+  429  git commit -m "initial commit"
+  430  git push
+  431  ls
+  432  git init
+  433  git add .
+  434  git commit -m "initial commit"
+  435  git remote add origin https://github.com/Lizalise504/CalculatorJavaII.git
+  436  git push -u origin main
+  437  cd ..
+  438  ls
+  439  cd 'Singly Linked'
+  440  ls
+  441  git init
+  442  git add .
+  443  git commit -m "initial commit"
+  444  git remote add origin https://github.com/Lizalise504/SinglyLinkedList.git
+  445  git push -u origin main
+  446  cd ..
+  447  ls
+  448  cd DLL
+  449  ls
+  450  git init
+  451  git add .
+  452  git commit -m "inital commit"
+  453  git remote add origin https://github.com/Lizalise504/DoubleLinkedList.git
+  454  git push -u origin main
+  455  cd ..
+  456  ls
+  457  cd Tries
+  458  ls
+  459  git init
+  460  git add .
+  461  git commit -m "initial commit"
+  462  git remote add origin https://github.com/Lizalise504/TriesJava.git
+  463  git push -u origin main
+  464  ls
+  465  ls
+  466  cd 'OneDrive - Capitec Bank Ltd'
+  467  ls
+  468  mysql -u root -p
+  469  java --version
+  470  mvn -v
+  471  mvn -v
+  472  mvn install -N
+  473  mvn install
+  474  keytool -list -keystore /etc/ssl/certs/java/cacerts
+  475  sudo keytool -import -file DigiCertGlobalRootCA.crt -keystore /etc/ssl/certs/java/cacerts
+  476  mvn -install
+  477  mvn -x
+  478  mnv -X
+  479  mvn -X
+  480  keytool -v -alias mavensrv -import \ -file /%Java_Home%/jdk-20-/lib/security/CACERTS.cert\ -keystore trust.jks
+  481  keytool -cacerts
+  482  keytool -h
+  483  keytool -importcert
+  484  ls
+  485  git status
+  486  git init
+  487  git status
+  488  git add .
+  489  git status
+  490  git commit -m "firt commit"
+  491  git remote add origin https://github.com/Lizalise504/Beginning_Bash.git
+  492  git push -u origin main
+  493  git status
+  494  ls
+  495  git push
+  496  git pull
+  497  git status
+  498  git push -u main
+  499  git remote add origin https://github.com/Lizalise504/Beginning_Bash.git
+  500  git push -u origin main
+  501  ls
+  502  cd 'OneDrive - Capitec Bank Ltd'/Desktop/Umuzi
+  503  ls
+  504  mkdir 'git-basic-exercises'
+  505  cd git-basic-exercises
+  506  ls
+  507  git init
+  508  ls
+  509  ls -a
+  510  git status
+  511  touch README.md
+  512  ls -a
+  513  git log
+  514  git add README.md
+  515  git status
+  516  git rm --cached README.md
+  517  git status
+  518  git add README.md
+  519  git commit -m "initial commit"
+  520  git log
+  521  nano README.md
+  522  cat README.md
+  523  git status
+  524  git add README.md
+  525  git status
+  526  git commit -m "second commit"
+  527  nano README.md
+  528  git status
+  529  git add .
+  530  git commit -m "third commit"
+  531  git log
+  532  git checkout 454a84c35518ed8d6679e1c447b1fd4eff32362f
+  533  cat README.md
+  534  git checkout main
+  535  cat README.md
+  536  git branch
+  537  git checkout -b milkshake-flavours
+  538  git branch
+  539  git checkout main
+  540  git branch
+  541  git checkout milkshake-flavours
+  542  nano milkshakes.md
+  543  git status
+  544  git add milkshakes.md
+  545  git commit -m"added initial flavours"
+  546  git log
+  547  git checkout main
+  548  git checkout -b history
+  549  git log
+  550  git branch
+  551  git checkout milkshake-flavours
+  552  git log
+  553  git checkout main
+  554  nano README.md
+  555  git add README.md
+  556  git status
+  557  git commit -m "random readme changes"
+  558  git checkout history
+  559  cat README.MD
+  560  rm README.md
+  561  ech "booya" > README.md
+  562  git status
+  563  git add README.md
+  564  git commit -m "rewrote readme"
+  565  git checkout main
+  566  ls
+  567  git log
+  568  git checkout milkshake-flavours
+  569  ls
+  570  git log
+  571  git checkout history
+  572  ls
+  573  history > history.txt

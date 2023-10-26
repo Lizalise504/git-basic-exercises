@@ -18,3 +18,6 @@ nano README.md
 After typing press Ctrl x to exit
 press y to save
 then enter to exit
+Adding few lines 
+Or maybe just one or two
+Well all the lines added
